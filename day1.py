@@ -64,6 +64,44 @@
 
 
 #String to Integer
+# str='200'
+# num=int(str)
+# print(type(str))
+# print(type(num))
+# print(num)
+#
+# Output:
+# <class 'str'>
+# <class 'int'>
+# 200
+
+
+#Int to Str
+# int=123
+# a=str(int)
+# print(a)
+# print(type(int))
+# print(type(a))
+#
+# Output:
+# 123
+# <class 'int'>
+# <class 'str'>
+
+
+
+#List to Tuple
+# l1=["Hii","iam","Mayuresh"]
+# t1=tuple(l1)
+# print(type(l1))
+# print(type(t1))
+# print(t1)
+#
+#
+# Output:
+# <class 'list'>
+# <class 'tuple'>
+# ('Hii', 'iam', 'Mayuresh')
 
 
 
