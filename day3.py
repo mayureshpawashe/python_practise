@@ -73,6 +73,23 @@
 
 
 
+
+#Keyword Arguments
+# def describe_pet(pet_name, animal_type="dog"):
+#     return f"I have a {animal_type} named {pet_name}."
+#
+# # Positional arguments
+# print(describe_pet("Tommy"))
+#
+# # Keyword arguments
+# print(describe_pet(animal_type="cat", pet_name="Kiara"))
+#
+# Output:
+# I have a dog named Tommy.
+# I have a cat named Kiara.
+
+
+
 #List Comprehension
 
 # nums=[1,2,4,5,6,7,8]
