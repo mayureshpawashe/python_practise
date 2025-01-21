@@ -55,6 +55,7 @@
 
 
 #take input from user then read it back
+#working with context manager "with"
 
 # with open("user_input.txt","w") as file:
 #     user_input=input("Enter some input: ")
