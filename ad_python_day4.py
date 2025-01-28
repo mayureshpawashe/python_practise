@@ -102,9 +102,35 @@
 
 
 
+class Car:
+    def __init__(self, brand, year):
+        self.brand = brand
+        self.year = year
+
+car = Car("Toyota", 2020)
+
+# Get attribute
+print(getattr(car, "brand"))  # Output: Toyota
+
+# Set attribute
+setattr(car, "color", "Red")
+print(car.color)  # Output: Red
+
+# Check attribute
+print(hasattr(car, "year"))  # Output: True
+
+# Delete attribute
+delattr(car, "year")
+print(hasattr(car, "year"))  # Output: False
 
 
 
+
+# Output:
+# Toyota
+# Red
+# True
+# False
 
 
 
